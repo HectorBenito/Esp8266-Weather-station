@@ -21,10 +21,14 @@
  *   
  *     Must use ESP8266 Arduino core from:
  *      https://github.com/esp8266/Arduino
- *     DHT sensors Adafruit library from:
- *      https://github.com/adafruit/DHT-sensor-library
  *     Arduino EEPROM library from:
  *      https://www.arduino.cc/en/Reference/EEPROM
+ *     DHT sensors Adafruit library from:
+ *      https://github.com/adafruit/DHT-sensor-library
+ *     Arduino Wire library from: 
+ *      https://www.arduino.cc/en/Reference/Wire
+ *     Bmp180 Sparkfun library from:
+ *      https://github.com/sparkfun/BMP180_Breakout/tree/master/Libraries/Arduino
  *      
  */
  
@@ -216,4 +220,3 @@ void loop(void)
   ESP.deepSleep(10 * 60 * 1000000); // loop every 10 minutes
   delay(100);
 }
-
